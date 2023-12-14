@@ -92,6 +92,8 @@ $(call inherit-product, packages/apps/GoogleCameraGoEdition/GoogleCameraGoEditio
 PRODUCT_PACKAGES += \
     android.hardware.camera.common@1.0 \
     android.hardware.camera.device@3.4 \
+	android.frameworks.sensorservice@1.0 \
+    android.frameworks.sensorservice@1.0.vendor \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service \
     android.hardware.camera.provider@2.5 \
